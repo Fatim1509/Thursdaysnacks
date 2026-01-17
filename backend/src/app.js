@@ -19,7 +19,7 @@ app.use(securityMiddleware);
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: process.env.FRONTEND_URL || 'https://thursdaysnacks.vercel.app',
   credentials: true,
   optionsSuccessStatus: 200
 };
