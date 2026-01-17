@@ -5,7 +5,7 @@ import axios from 'axios';
  * Handles all communication with the backend API
  */
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'thursdaysnacks-production.up.railway.app';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://thursdaysnacks-production.up.railway.app';
 
 // Create axios instance with base configuration
 const apiClient = axios.create({
