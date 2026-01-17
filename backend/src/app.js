@@ -19,7 +19,7 @@ app.use(securityMiddleware);
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || 'https://thursdaysnacks.vercel.app',
+  origin: process.env.FRONTEND_URL || 'https://thursdaysnacks-kcdkpt0jt-fatim1509s-projects.vercel.app',
   credentials: true,
   optionsSuccessStatus: 200
 };
