@@ -2,7 +2,7 @@
 
 Complete documentation for the StreamFinder backend API.
 
-## Base URL.
+## Base URL
 
 **Development**: `http://localhost:5000`  
 **Production**: `https://your-api.onrender.com`
